@@ -18,8 +18,8 @@ export default function Home({ allPostsData }) {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
-      <p>{process.env.VAR1}</p>
-      <p>{process.env.NEXT_PUBLIC_VAR2}</p>
+      <p>var dans compo {process.env.VAR3}</p>
+      <p>var dans compo public {process.env.NEXT_PUBLIC_VAR4}</p>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>

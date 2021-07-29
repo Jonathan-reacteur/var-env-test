@@ -60,8 +60,8 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <p>CECIC TEST {process.env.TEST}</p>
-      <p>CECIC TEST2 {process.env.NEXT_PUBLIC_ANALYTICS_ID}</p>
+      <p>var dans composant : {process.env.VAR1}</p>
+      <p>var dans composant public : {process.env.NEXT_PUBLIC_VAR2}</p>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>

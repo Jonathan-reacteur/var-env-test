@@ -10,8 +10,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <p>{process.env.VAR5}</p>
-          <p>{process.env.NEXT_PUBLIC_VAR6}</p>
+          <p>variable dans le head : {process.env.VAR5}</p>
+          <p>variable PUBLIC dans le head : {process.env.NEXT_PUBLIC_VAR6}</p>
         </Head>
         <body>
           <Main />
